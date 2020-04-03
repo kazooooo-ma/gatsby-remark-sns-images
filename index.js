@@ -15,5 +15,5 @@ module.exports = async ({ markdownNode }, pluginOptions) => {
     }
   });
 
-  console.info(`gatsby-remark-og-image: Successful generated: ${result}`);
+  console.info(`gatsby-remark-sns-image: Successful generated: ${result}`);
 };
