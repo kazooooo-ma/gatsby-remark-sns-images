@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-remark-sns-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "catchy-image": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psbss/gatsby-remark-sns-images.git"
+  },
+  "keywords": [
+    "gatsby",
+    "social cards",
+    "og images"
+  ],
+  "author": "Yuki Uehara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psbss/gatsby-remark-sns-images/issues"
+  },
+  "homepage": "https://github.com/psbss/gatsby-remark-sns-images#readme"
+}
