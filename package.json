@@ -1,7 +1,7 @@
 {
   "name": "gatsby-remark-sns-images",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Make a SNS ogp image usign your article title on Gatsby,js",
   "main": "index.js",
   "dependencies": {
     "catchy-image": "^0.1.4"
@@ -16,8 +16,10 @@
   },
   "keywords": [
     "gatsby",
+    "atsby-plugin",
+    "gatsby-transformer-plugin",
     "social cards",
-    "og images"
+    "ogp images"
   ],
   "author": "Yuki Uehara",
   "license": "MIT",
