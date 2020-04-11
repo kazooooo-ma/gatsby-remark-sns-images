@@ -1,5 +1,5 @@
 # Gatsby remark sns images
-
+Make a SNS ogp image using your article title on Gatsby.js.
 ## Usage
 ### Install
 ```bash
@@ -9,7 +9,9 @@ yarn add gatsby-remark-sns-images
 ```
 
 ### gatsby-config.js
+
 ```js
+// Example
 resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -63,4 +65,43 @@ resolve: `gatsby-transformer-remark`,
               timeout: 10000,
             },
           },
+        ],
+      },
 ```
+
+### options
+
+- output
+  - directory : default is public/article_directory/
+  - fileName : image file name
+- image
+  - width : image width
+  - height : image height
+  - backgroundColor : image background color
+- style
+  - title
+    - fontFamily : Font family
+    - fontColor : Font color (Can use Hex color codes)
+    - fontWeight : Font family's option (You should use Bold)
+    - fontSize : default is 64px
+    - paddingTop : padding top
+    - paddingBottom : padding bottom
+    - paddingLeft : padding left
+    - paddingRight : padding right
+  - author
+    - fontFamily : Font family
+    - fontColor : Font color (Can use Hex color codes)
+    - fontWeight : Font family's option (You should use Regular)
+    - fontSize : default is 42px
+- meta
+  - title : meta options
+  - author : author name
+- fontFile
+  - path : Font file path
+  - family : Utilize font name
+  - weight : Utilize font weight
+- iconFile : Next to author
+- timeout : Timeout on build time limit
+
+## Note
+If I have some issues, Please give me [new issues](https://github.com/psbss/gatsby-remark-sns-images/issues)
