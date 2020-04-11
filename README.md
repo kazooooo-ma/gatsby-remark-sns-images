@@ -71,6 +71,8 @@ resolve: `gatsby-transformer-remark`,
 
 ### options
 
+![example](https://github.com/psbss/gatsby-remark-sns-images/blob/master/gatsby-remark-sns-images.png)
+
 - output
   - directory : default is public/article_directory/
   - fileName : image file name
