@@ -1,10 +1,10 @@
 {
   "name": "gatsby-remark-sns-images",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Make a SNS ogp image usign your article title on Gatsby,js",
   "main": "index.js",
   "dependencies": {
-    "catchy-image": "^0.1.4"
+    "catchy-image": "^0.1.6"
   },
   "devDependencies": {},
   "scripts": {
