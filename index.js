@@ -2,6 +2,7 @@ const catchy = require("catchy-image");
 
 module.exports = async ({ markdownNode }, pluginOptions) => {
   // Sending gatsby-config.js settings and markdowns header metadata to image generation Library.
+  console.info(`${markdownNode}:::${pluginOptions}`);
   const result = await catchy.generate({
     ...pluginOptions,
     output: {
